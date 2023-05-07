@@ -17,11 +17,11 @@ public class LavaManager : MonoBehaviour
     {
 
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Player")
-        {
-            player.transform.position = origin.transform.position;
-        }
-    }
+   //rivate void OnTriggerEnter(Collider other)
+    //
+  //    if (other.tag == "Player")
+    //  {
+    //      player.transform.position = origin.transform.position;
+   //   }
+   //
 }

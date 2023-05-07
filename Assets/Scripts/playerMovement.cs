@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class playerMovement : MonoBehaviour
 {
@@ -8,33 +9,48 @@ public class playerMovement : MonoBehaviour
     private Rigidbody rb;
     public int vforce;
     public int hforce;
+    [SerializeField] PhotonView _photonView;
+
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
     }
 
+
     public void Movement()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (_photonView.IsMine)
         {
-            rb.AddForce(new Vector3(0, 1, 0) * vforce);
+
+
+            if (Input.GetKey(KeyCode.D))
+            {
+                transform.Translate(0.1f, 0f, 0f);
+            }
+             if (Input.GetKey(KeyCode.A))
+                {
+                transform.Translate(-0.1f, 0f, 0f);
+            }
+            if (Input.GetKey(KeyCode.S))
+            {
+                transform.Translate(0.0f, 0f, -0.1f);
+            }
+            if (Input.GetKey(KeyCode.W))
+            {
+                transform.Translate(0.0f, 0f, 0.1f);
+            }
+
+
+
+
+
+
+
+
+
+
         }
-        if (Input.GetKeyDown(KeyCode.W)|| Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            rb.AddForce(new Vector3(0, 0, 1) * hforce);
-        }
-        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            rb.AddForce(new Vector3(0, 0, -1) * hforce);
-        }
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            rb.AddForce(new Vector3(-1, 0, 0) * hforce);
-        }
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            rb.AddForce(new Vector3(1, 0, 0) * hforce);
-        }
+
     }
     void Update()                   
     {
