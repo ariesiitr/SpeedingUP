@@ -4,7 +4,7 @@
 ![speedingUpLogo](https://github.com/coder-ishan/SpeedingUP/assets/59679369/df8807da-335e-4f0e-90ab-409e30c896d7)
 
 
-A web Based Game Empowering Developers
+## A web Based Game Empowering Developers
 
 The issue of fair rewards for game developers is resolved by Speeding Up, a decentralized game built on the Ethereum and Polygon (formerly Matic) blockchains. Developers frequently struggle to be fairly compensated for their labor and creative efforts in the traditional gaming industry. Even if their game is wildly successful, game developers frequently do not receive royalties or other forms of payment for their work beyond their initial salary or contract payment.
 
@@ -18,6 +18,6 @@ Additionally, Speeding Up offers a decentralized platform for gaming that is saf
 
 In conclusion, Speeding Up offers players an engaging, transparent and accessible gaming experience while also offering a fair and open system for rewarding game developers. 
 
-Technologies Used : Unity, C#, Photon, ThirdWeb SDK, Polygon,Metamask
+*Technologies Used : Unity, C#, Photon, ThirdWeb SDK, Polygon,Metamask
 
 
