@@ -1,8 +1,8 @@
-# SpeedUp!
+# Speeding Up: A Fair and Exciting Game Where Developers are Rewarded for Their Skills and Creativity
+
+
 ![speedingUpLogo](https://github.com/coder-ishan/SpeedingUP/assets/59679369/df8807da-335e-4f0e-90ab-409e30c896d7)
 
-
-## Speeding Up: A Fair and Exciting Game Where Developers are Rewarded for Their Skills and Creativity
 
 A web Based Game Empowering Developers
 
