@@ -16,7 +16,11 @@ Additionally, Speeding Up offers a decentralized platform for gaming that is saf
 
  Regardless of a player's prior knowledge of blockchain technology or cryptocurrencies, Speeding Up is made to be accessible to a broad range of players. Players can easily connect their wallets and take part in the game by integrating Metamask.
  
-<img width="1280" alt="IMG1" src="https://github.com/coder-ishan/SpeedingUP/assets/59679369/458673c7-721f-4584-9ccf-99e725d59582"><img width="1280" alt="IMG2" src="https://github.com/coder-ishan/SpeedingUP/assets/59679369/4c67b832-432f-4e99-bf3a-35951391060b"><img width="1280" alt="IMG3" src="https://github.com/coder-ishan/SpeedingUP/assets/59679369/a54e611a-c14b-4c4a-af56-af3c453de53b">
+<img width="1280" alt="IMG2" src="https://github.com/coder-ishan/SpeedingUP/assets/59679369/4c67b832-432f-4e99-bf3a-35951391060b">
+
+<img width="1280" alt="IMG3" src="https://github.com/coder-ishan/SpeedingUP/assets/59679369/a54e611a-c14b-4c4a-af56-af3c453de53b">
+
+<img width="1280" alt="IMG1" src="https://github.com/coder-ishan/SpeedingUP/assets/59679369/458673c7-721f-4584-9ccf-99e725d59582">
 
 
 In conclusion, Speeding Up offers players an engaging, transparent and accessible gaming experience while also offering a fair and open system for rewarding game developers. 
