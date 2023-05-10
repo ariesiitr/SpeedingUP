@@ -18,24 +18,20 @@ Additionally, Speeding Up offers a decentralized platform for gaming that is saf
  
 <img width="640" alt="IMG3" src="https://github.com/coder-ishan/SpeedingUP/assets/59679369/a54e611a-c14b-4c4a-af56-af3c453de53b">
 &nbsp;
-
-
-
+&nbsp;
+&nbsp;
 <img width="640" alt="IMG2" src="https://github.com/coder-ishan/SpeedingUP/assets/59679369/4c67b832-432f-4e99-bf3a-35951391060b">
 &nbsp;
-
-
-
+&nbsp;
+&nbsp;
 <img width="640" alt="IMG1" src="https://github.com/coder-ishan/SpeedingUP/assets/59679369/458673c7-721f-4584-9ccf-99e725d59582">
 &nbsp;
-
-
-
+&nbsp;
+&nbsp;
 <img width="640" alt="IMG4" src="https://github.com/coder-ishan/SpeedingUP/assets/59679369/ad95441a-926f-48e9-9e5b-7abd3fa56c59">
 &nbsp;
-
-
-
+&nbsp;
+&nbsp;
 In conclusion, Speeding Up offers players an engaging, transparent and accessible gaming experience while also offering a fair and open system for rewarding game developers. 
 
 
