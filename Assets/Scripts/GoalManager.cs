@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
+using TMPro;
 
 public class GoalManager : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class GoalManager : MonoBehaviour
  
 
     private GameObject ok1;
+    public TextMeshProUGUI playerCount;
 
     public GameObject targetPlayer;
     public string levelName = "Goal";
@@ -25,8 +27,9 @@ public class GoalManager : MonoBehaviour
     {
         if(mapscript.numplay==1&&s==0)
         {
-            SceneManager.LoadScene("Goal");s = 1;
+            SceneManager.LoadScene("Goal"); s = 1;
         }
+        playerCount.text = "Players Remaining : " + mapscript.numplay.ToString();
     }
     
     private bool isDestroyed = false;

@@ -22,33 +22,26 @@ public class playerMovement : MonoBehaviour
         if (_photonView.IsMine)
         {
 
-
-            if (Input.GetKey(KeyCode.D))
-            {
-                transform.Translate(0.1f, 0f, 0f);
-            }
-             if (Input.GetKey(KeyCode.A))
+            
+                if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
                 {
-                transform.Translate(-0.1f, 0f, 0f);
-            }
-            if (Input.GetKey(KeyCode.S))
-            {
-                transform.Translate(0.0f, 0f, -0.1f);
-            }
-            if (Input.GetKey(KeyCode.W))
-            {
-                transform.Translate(0.0f, 0f, 0.1f);
-            }
-
-
-
-
-
-
-
-
-
-
+                    transform.Translate(0.1f, 0f, 0f);
+                }
+                if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+                {
+                    transform.Translate(-0.1f, 0f, 0f);
+                }
+                if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+                {
+                    transform.Translate(0.0f, 0f, -0.1f);
+                }
+                if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+                {
+                    transform.Translate(0.0f, 0f, 0.1f);
+                }
+            
+           
+            
         }
 
     }

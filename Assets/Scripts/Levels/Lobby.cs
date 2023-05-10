@@ -11,7 +11,7 @@ public class Lobby : MonoBehaviourPunCallbacks
     [SerializeField] TMP_InputField _createInput;
     [SerializeField] TMP_InputField _joinInput;
     [Space]
-    [SerializeField] byte _maxPlayers = 10;
+    [SerializeField] byte _maxPlayers = 5;
     [SerializeField] MenuManager _menuManager;
     [SerializeField] string _gameScene = "GAme";
     [Space]
@@ -64,7 +64,7 @@ public class Lobby : MonoBehaviourPunCallbacks
 
     public void JoinRoom(string _name)
     {
-        PhotonNetwork.JoinRoom(_name);
+            PhotonNetwork.JoinRoom(_name);
     }
 
     public void JoinRoomBtn()

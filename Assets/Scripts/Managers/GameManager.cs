@@ -6,19 +6,23 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject _playerPrefab;
-    [SerializeField] Animator _anim;
+    private string usernames;
+   // [SerializeField] Animator _anim;
 
     void Start()
     {
         //TODO: Spawn Player
+    
         SpawnPlayer();
 
-        _anim.SetBool("start", true);
+       // _anim.SetBool("start", true);
     }
 
     void SpawnPlayer()
     {
         GameObject _player = PhotonNetwork.Instantiate(_playerPrefab.name, _playerPrefab.transform.position, _playerPrefab.transform.rotation);
-        Debug.Log("Spawned Player", _player);
+       // GlobalUsernames.usernameList.Add(PhotonNetwork.NickName);
+      
+        
     }
 }

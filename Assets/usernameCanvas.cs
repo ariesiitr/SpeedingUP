@@ -38,6 +38,7 @@ public class usernameCanvas : MonoBehaviour
         {
             _usernameCanvas.SetActive(true);
             _usernameText.text = _photonView.Owner.NickName;
+            //GlobalUsernames.usernameList.Add(_usernameText.text);
         }
     }
 
